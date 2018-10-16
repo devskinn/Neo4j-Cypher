@@ -12,4 +12,4 @@
 
 {}   = node properties
 
-[Match](../master/Course/Match.md)
+[MATCH Command](../master/Course/Match.md)
