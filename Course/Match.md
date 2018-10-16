@@ -43,4 +43,4 @@ Note: strings ARE case sensitive
 
 
 
-[Return to Neo4j-Cypher](../master/README.md)
+[Return to Repository Neo4j-Cypher](../README.md)
