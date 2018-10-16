@@ -1,15 +1,4 @@
 # Neo4j-Cypher
+Repository to hold files and scripts related to Neo4j and the Cypher query language.
 
-## Basic Cypher Commands
-
-()   = Node
-
---   = Relationship e.g. ()--()
-
--->  = Relationship direction
-
--[]- = Relationship variable:type
-
-{}   = node properties
-
-[MATCH Command](../master/Course/Match.md)
+[Udemy Course](../master/Course/)
