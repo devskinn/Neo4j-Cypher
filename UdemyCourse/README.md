@@ -1,14 +1,14 @@
-# Neo4j-Cypher
+# Neo4j Udemy Course
 Folder to hold scripts, notes and other course resources for Neo4j Udemy course.
 
-## Basic Cypher Commands
-
 | Symbol | Meaning|
-| --- | --- |
+| :---: | :--- |
 | () | Node |
 | -- | Relationship e.g. ()--() |
 | --> | Relationship direction |
 | -[]- | Relationship variable:type |
 | {} | node properties |
 
-[MATCH Command](../Notes/Match.md)
+## Basic Cypher Commands
+
+[MATCH Command](../UdemyCourse/Notes/Match.md)
