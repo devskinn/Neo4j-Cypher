@@ -12,4 +12,4 @@
 
 {}   = node properties
 
-[Match](../blob/master/Course/Match.md)
+[Match](../master/Course/Match.md)
