@@ -60,4 +60,4 @@ MATCH (tom:Person{name: 'Tom Hanks', born: 1956}) RETURN tom
 ```
 
 
-[Return to Repository Neo4j-Cypher](../README.md)
+[Back](../README.md)
