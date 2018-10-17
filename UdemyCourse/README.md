@@ -11,5 +11,5 @@ Folder to hold scripts, notes and other course resources for Neo4j Udemy course.
 
 ## Basic Cypher Commands
 
-[MATCH](../UdemyCourse/Notes/Match.md)
-[WHERE](../UdemyCourse/Notes/Where.md)
+[MATCH](../UdemyCourse/Notes/Match.md)  
+[WHERE](../UdemyCourse/Notes/Where.md)  
