@@ -1,4 +1,4 @@
-# MATCH COMMAND
+# MATCH
 
 * MATCH (variable) RETURN variable
 * MATCH (variable:Node) RETURN variable

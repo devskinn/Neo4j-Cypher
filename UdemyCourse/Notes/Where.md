@@ -25,6 +25,7 @@ LIMIT 1
 | <= | Less than or equal to |
 | <> | Not equal to |
 
+
 ### BOOLEAN Operators
 ```
 AND, OR, IN, NOT
@@ -38,9 +39,9 @@ WHERE NOT (someone.born >= 1950 AND someone.born <= 1970)
 ```
 
 Using Booleans with Paths:  
+(in progress ...)  
   
-  
-[Back](../Readme.md)
+[Back](../README.md)
 
 
 
