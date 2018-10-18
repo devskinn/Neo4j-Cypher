@@ -49,9 +49,8 @@ WHERE movie.title = 'Unforgiven' AND NOT (person)-[:DIRECTED]->(movie)
 RETURN person
 ```
 
-### Regular Expressions  
-Help to match patterns in text.
-
+### Regular Expressions
+Match patterns in text.  
 Return all movie titles starting with 'The':  
 ```
 MATCH (movie:Movie)
@@ -71,7 +70,7 @@ To ensure at least one character in front of 'The':
 WHERE movie.title =~ '(?i).+The .*'
 ```
 
-### Transform Results  
+### Transform Results
 ```
 ORDER BY, LIMIT, SKIP, AS
 ```
