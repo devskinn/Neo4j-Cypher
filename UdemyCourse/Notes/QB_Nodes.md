@@ -1,4 +1,6 @@
-# MATCH
+## Query Basics - Nodes and Relationships
+
+### MATCH
 
 * MATCH (variable) RETURN variable
 * MATCH (variable:Node) RETURN variable

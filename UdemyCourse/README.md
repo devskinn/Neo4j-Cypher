@@ -13,4 +13,4 @@ Folder to hold scripts, notes and other course resources for Neo4j Udemy course.
 Note: All examples use a 'Movie' database which can be setup by importing the file 'create-course-data.txt' into Neo4j.
 
 [Nodes and Relationships](../UdemyCourse/Notes/QB_Nodes.md)  
-[Filtering and Transforming](../UdemyCourse/Notes/.md)  
+[Filtering and Transforming](../UdemyCourse/Notes/QB_Filtering.md)  
