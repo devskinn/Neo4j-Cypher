@@ -9,7 +9,8 @@ Folder to hold scripts, notes and other course resources for Neo4j Udemy course.
 | -[]- | Relationship variable:type |
 | {} | node properties |
 
-## Basic Cypher Commands
+## Query Basics
+Note: All examples use a 'Movie' database which can be setup by importing the file 'create-course-data.txt' into Neo4j.
 
-[MATCH](../UdemyCourse/Notes/Match.md)  
-[WHERE](../UdemyCourse/Notes/Where.md)  
+[Nodes and Relationships](../UdemyCourse/Notes/QB_Nodes.md)  
+[Filtering and Transforming](../UdemyCourse/Notes/.md)  
