@@ -17,3 +17,8 @@ Note: All examples use a 'Movie' database which can be setup by importing the fi
 [Nodes and Relationships](../UdemyCourse/Notes/QB_Nodes.md)  
 [Filtering and Transforming](../UdemyCourse/Notes/QB_Filtering.md)  
 [Aggregation and other basic functions](../UdemyCourse/Notes/QB_Aggregation.md)  
+
+## Create, Update, Delete Nodes and Relationships  
+
+[Create](../UdemyCourse/Notes/Create.md)  
+[Delete](../UdemyCourse/Notes/Delete.md)  
