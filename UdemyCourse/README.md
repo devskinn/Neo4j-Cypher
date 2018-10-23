@@ -1,5 +1,7 @@
 # Neo4j Udemy Course
-Folder to hold scripts, notes and other course resources for Neo4j Udemy course.
+Folder to hold scripts, notes and other course resources for Neo4j Udemy course.  
+
+[Download Neo4j Desktop](https://neo4j.com/download/)  
 
 | Symbol | Meaning|
 | :---: | :--- |
