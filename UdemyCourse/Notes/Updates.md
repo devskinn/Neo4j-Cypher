@@ -44,10 +44,15 @@ RETURN tom
 
 ### Change Relationship Types
 
-In progress ...
-
-
-
+No easy way to do this, need to create new relationship, and it and then delete the old one.  
+Change Tom Hanks HAS_CONTACT relationship type with Halle Berry to OLD_CONTACT relationship type:
+```
+MATCH (tom:Person{name: 'Tom Hanks'})-[orig_rel:HAS_CONTACT]->(halle:Person{name: 'Halle Berry'})
+CREATE (tom)-[new_rel:OLD_CONTACT]->(halle)
+SET new_rel = orig_rel
+DELETE orig_rel
+RETURN tom, halle
+```
 
 
 [Back](../README.md)
