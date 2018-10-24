@@ -1,0 +1,53 @@
+## UPDATES
+
+### SET Properties and Labels
+
+Add new property to Tom Hanks node of 'sex' and set this to 'male':
+```
+MATCH (tom:Person[name: 'Tom Hanks'])
+SET tom.sex = 'male'
+RETURN tom
+```
+
+Add a new label of 'Handsome' to the Tom Hanks node:
+```
+MATCH (tom:Person[name: 'Tom Hanks'])
+SET tom:Handsome
+RETURN tom
+```
+
+### REMOVE Properties and Labels
+
+Remove the 'sex' property from the Tom Hanks node:
+```
+MATCH (tom:Person[name: 'Tom Hanks'])
+REMOVE tom.sex
+RETURN tom
+```
+
+Remove the 'Handsome' label from the Tom Hanks node:
+```
+MATCH (tom:Person[name: 'Tom Hanks'])
+REMOVE tom:Handsome
+RETURN tom
+```
+
+### SET Generated Value (this is a dynamic value)
+
+Get number of contacts for Tom Hanks and add this to a dynamic value/variable:
+```
+MATCH (tom:Person[name: 'Tom Hanks'])-[:HAS_CONTACT]->(contact)
+WITH tom, count(contact) AS num_of_contacts
+SET tom.num_of_contacts = num_of_contacts
+RETURN tom
+```
+
+### Change Relationship Types
+
+In progress ...
+
+
+
+
+
+[Back](../README.md)
