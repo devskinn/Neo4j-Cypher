@@ -25,3 +25,4 @@ Note: All examples use a 'Movie' database which can be setup by importing the fi
 [Update](../UdemyCourse/Notes/Updates.md)  
 [Merge](../UdemyCourse/Notes/Merge.md)  
 [Null](../UdemyCourse/Notes/Null.md)  
+[Paths](../UdemyCourse/Notes/Paths.md)  
